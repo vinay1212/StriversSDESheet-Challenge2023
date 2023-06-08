@@ -3,7 +3,7 @@
 //     1. first declare 1D vector temp, which is a new row of triangle
 //     2. insert 1 into temp, then calculate next (rowIndex-1) elements from above row of triangle.
         
-//         ie.  here i is the row no.
+//         ie.  here i is the row no. 
         
 //     3. insert 1 again as the last element into temp
 // - Now insert this temp into ans as the new row2 of triangle.
