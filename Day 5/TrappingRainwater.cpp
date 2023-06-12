@@ -6,7 +6,7 @@ long getTrappedWater(long *arr, int n){
     long mx = arr[0];
     l.push_back(mx);
     for(int i = 1; i < n; i++){
-        if(arr[i] > mx){
+        if(arr[i] > mx){ 
             mx = arr[i];
         }
         l.push_back(mx);
